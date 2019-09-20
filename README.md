@@ -7,4 +7,5 @@
 ![](https://imgur.com/ggV5emJ.png)
 
 ## Bai Tap 03
+![](https://imgur.com/41EhdY6)
 ![](https://media.giphy.com/media/VIW7JKzmh8NkMnoo4M/giphy.gif)
