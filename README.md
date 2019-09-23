@@ -11,12 +11,12 @@
 ![](https://media.giphy.com/media/VIW7JKzmh8NkMnoo4M/giphy.gif)
 
 ## Bai Tap 01 - Float
-![](https://imgur.com/ZWurmAk.png)
+![](https://imgur.com/TVGoWbm.png)
 
 ## Bai Tap 02 - Float
 ![](https://imgur.com/BpvqOjB.png)
 
 ## Bai Tap 03 - Float
-![](https://imgur.com/Bj4cOH8.png)
+![](https://imgur.com/bZYDnbv.png)
 
 
