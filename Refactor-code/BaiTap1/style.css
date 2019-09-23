@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+.container a {
+	color: blue;
+}
+
+.header {
+	background-color: #E2E2E2;
+}
+
+.header h1 {
+	padding: 7px 10px;
+}
+
+.nav {
+	background-color: #c6a7a5;
+}
+
+.clear {
+	clear: both;
+}
+
+.nav ul {
+	list-style-type: none;
+}
+
+.nav ul li {
+	float: left;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+
+.nav ul li a {
+	padding: 7px 10px;
+}
+
+.main {
+	overflow: hidden;
+}
+
+.main .column1, .main .column2 {
+	float: left;
+	padding-bottom: 9999px;
+	margin-bottom: -9999px;
+}
+
+.main .column1 {
+	width: 70%;
+	background-color: #b1cfa8;
+}
+
+.main .column2 {
+	width: 30%;
+	background-color: #a5a6ce;
+}
+
+.main .column1 h1, .main .column2 h1 {
+	padding: 7px 10px;
+}
+
+.main .column1 a {
+	display: block;
+	padding: 7px 10px;
+}
+
+.main .column1 p {
+	margin-top: 15px;
+	padding-left: 7px;
+}
+
+.column2 nav {
+	margin-top: 15px;
+	padding-left: 60px;
+}
+
+.column2 p {
+	padding: 7px 10px;
+}
+
+.footer {
+	background-color: #d1d0a6;
+}
+
+.footer h3 {
+	padding: 0px 10px;
+	font-weight: lighter;
+}
