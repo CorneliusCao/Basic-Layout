@@ -9,3 +9,14 @@
 ## Bai Tap 03
 ![](https://imgur.com/41EhdY6.png)
 ![](https://media.giphy.com/media/VIW7JKzmh8NkMnoo4M/giphy.gif)
+
+## Bai Tap 01 - Float
+![](https://imgur.com/ZWurmAk.png)
+
+## Bai Tap 02 - Float
+![](https://imgur.com/BpvqOjB.png)
+
+## Bai Tap 03 - Float
+![](https://imgur.com/Bj4cOH8.png)
+
+
