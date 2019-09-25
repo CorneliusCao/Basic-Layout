@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+}
+
+body {
+	font-size: 14px;
+	background-image: url('./images/bg-body.png');
+	background-repeat: no-repeat;
+	background-size: 1600px;
+	background-position: center top;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+}
+
+.header {
+	background-image: url('./images/bg-header.jpg');
+	background-repeat: no-repeat;
+}
+
+.header p {
+	font-size: 25px;
+	color: #B2B3AF;
+    font-weight: lighter;
+    font-style: italic;
+    padding: 55.5px 27px;
+}
+
+.nav {
+	background-image: url(./images/bg-menu.png);
+	background-repeat: no-repeat;
+}
+
+.nav ul {
+	list-style-type: none;
+	padding-left: 12px;
+}
+
+.nav ul li {
+	display: inline-block;
+    padding: 9.5px 0px;
+    position: relative;
+    margin-right: 3px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+    color: white;
+    padding: 9.7px 8.5px;
+}
+
+/*.nav ul li a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	background-image: none;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	transition: background-image 1s ease;
+}*/
+
+.nav ul li a:hover {
+	background-image: url(./images/bg-menu-hover.png);
+	background-repeat: no-repeat;
+}
+
+.main {
+	display: table;
+}
+
+.column-1 {
+	width: 74%;
+	display: table-cell;
+}
+
+.column-2 {
+	width: 26%;
+	display: table-cell;
+}
+
+.column-1 {
+	padding-left: 5px;
+}
+
+.column-1 h1 {
+	color: #BDCA5C;
+	font-weight: lighter;
+}
+
+.column-1 h4 {
+	font-weight: lighter;
+	color: #d1cee8;
+}
+
+.image-container img{
+	width: 480px;
+	height: 72px;
+}
+
+.column-1 p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	line-height: 1.5em;
+}
+
+.comment {
+	vertical-align: middle;
+	padding-bottom: 100px;
+}
+
+.comment img {
+	height: 16px;
+	width: 16px;
+}
+
+.comment p {
+	display: inline-block;
+}
+
+
+.footer {
+	background-image: url('./images/bg-footer.jpg');
+	background-repeat: no-repeat;
+}
+
+.footer h3 {
+	font-weight: lighter;
+	padding: 65px 15px 15px 15px;
+	color: white;
+}
