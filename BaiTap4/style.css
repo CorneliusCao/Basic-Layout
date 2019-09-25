@@ -30,10 +30,10 @@ body {
 
 .header p {
 	font-size: 25px;
-	color: #B2B3AF;
+    color: #B2B3AF;
     font-weight: lighter;
     font-style: italic;
-    padding: 55.5px 27px;
+    padding: 55.6px 27px;
 }
 
 .nav {
@@ -48,31 +48,20 @@ body {
 
 .nav ul li {
 	display: inline-block;
-    padding: 9.5px 0px;
+    padding: 9.1px 0px;
     position: relative;
-    margin-right: 3px;
+    margin-right: 5px;
 }
 
 .nav ul li a {
 	text-decoration: none;
     color: white;
-    padding: 9.7px 8.5px;
+    padding: 9.5px 8.5px;
 }
-
-/*.nav ul li a:after {
-	content: '';
-	display: block;
-	position: absolute;
-	background-image: none;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	transition: background-image 1s ease;
-}*/
 
 .nav ul li a:hover {
 	background-image: url(./images/bg-menu-hover.png);
+	background-size: 70px 35px;
 	background-repeat: no-repeat;
 }
 
@@ -88,6 +77,7 @@ body {
 .column-2 {
 	width: 26%;
 	display: table-cell;
+	vertical-align: top;
 }
 
 .column-1 {
@@ -123,12 +113,56 @@ body {
 .comment img {
 	height: 16px;
 	width: 16px;
+	vertical-align: middle;
 }
 
 .comment p {
 	display: inline-block;
 }
 
+.button-container {
+	width: 100%;
+	background-image: url(images/bg-feed.gif);
+	/*padding-bottom: 30px;*/
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.my-btn {
+	background-image: url('./images/button-feed.png');
+	background-repeat: no-repeat;
+	width: 100%;
+	padding: 12px;
+	background-position: top center;
+}
+
+.my-btn:hover {
+	background-position:bottom center;
+}
+
+.feed {
+	background-color: #E3E3E3;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 15px;
+}
+
+.feed nav {
+	padding-bottom: 25px;
+}
+
+.feed nav ul {
+	list-style-type: none;
+}
+
+.feed nav ul li {
+	border-bottom: 1px solid #888;
+	padding: 2px 8px;
+}
+
+.feed nav ul li a {
+	text-decoration: none;
+	color: black;
+}
 
 .footer {
 	background-image: url('./images/bg-footer.jpg');
