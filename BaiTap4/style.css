@@ -48,15 +48,17 @@ body {
 
 .nav ul li {
 	display: inline-block;
-    padding: 9.1px 0px;
-    position: relative;
     margin-right: 5px;
 }
 
 .nav ul li a {
+	display: inline-block;
 	text-decoration: none;
     color: white;
-    padding: 9.5px 8.5px;
+    padding: 9.1px 8.5px;
+    background-image: url(./images/bg-menu.png);
+    background-size: 0px 35px;
+    transition: background-image 1s ease-in-out;
 }
 
 .nav ul li a:hover {
